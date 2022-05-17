@@ -1,7 +1,15 @@
+@media (prefers-color-scheme: dark) {
+  :root{
+    --calor-texto-global: #fff;
+    --color-background-global:#000; 
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  color: #141414;
+  color:var(--calor-texto-global);
+  background-color:var(--color-background-global);
 }
 
 ul {

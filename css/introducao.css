@@ -1,3 +1,13 @@
+:root {
+  --color-paragrafo-intro: #525252;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paragrafo-intro: #fff;
+  }
+}
+
 .introducao {
   max-width: 1200px;
   padding: 40px 20px;
@@ -28,7 +38,7 @@
 
 .introducao p {
   font-size: 1.5rem;
-  color: #525252;
+  color: var(--color-paragrafo-intro);
 }
 @media (max-width: 1000px) {
   .introducao h1 {
