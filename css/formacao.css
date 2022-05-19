@@ -129,6 +129,17 @@
   justify-content: space-between;
 }
 
+.cursos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cursos a:hover {
+  font-size: 1.5rem;
+  color: #67dd0a;
+  transition: 0.1s;
+}
+
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
