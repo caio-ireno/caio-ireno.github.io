@@ -1,15 +1,15 @@
-:root{
+:root {
   --color-menu: #141414;
-  --color-background:#f0f0f0; 
+  --color-background: #f0f0f0;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root{
+  :root {
     --color-menu: #fff;
-    --color-background:#000; 
+    --color-background: #000;
   }
-}
 
+}
 
 .header {
   max-width: 1200px; /*limita o tamanho da pagina*/
@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between; /*justifica criando um espaço entre os conteudos*/
+
 }
 
 .header img {
@@ -27,6 +28,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+
 }
 .header-menu a {
   color: var(--color-menu);
@@ -49,6 +51,3 @@
     border-radius: 4px;
   }
 }
-
-
-
